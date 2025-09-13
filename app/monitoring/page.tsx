@@ -259,7 +259,6 @@ export default function MonitoringAlerting() {
             </div>
           </div>
         </div>
-      </div>
 
       <div className="flex h-[calc(100vh-73px)]">
         {/* Left Sidebar - Active Alerts List */}
