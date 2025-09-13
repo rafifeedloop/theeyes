@@ -566,7 +566,7 @@ export default function CorePlatform() {
                         </span>
                       </div>
                       <p className="text-xs text-gray-600">
-                        Match when: name similarity > 0.92 AND dob equals
+                        Match when: name similarity &gt; 0.92 AND dob equals
                       </p>
                     </div>
                   </div>
@@ -578,7 +578,7 @@ export default function CorePlatform() {
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center justify-between">
                       <span>Auto-merge:</span>
-                      <span className="font-medium">≥ 0.85</span>
+                      <span className="font-medium">&ge; 0.85</span>
                     </div>
                     <div className="flex items-center justify-between">
                       <span>Review Queue:</span>
@@ -586,7 +586,7 @@ export default function CorePlatform() {
                     </div>
                     <div className="flex items-center justify-between">
                       <span>No Match:</span>
-                      <span className="font-medium">< 0.70</span>
+                      <span className="font-medium">&lt; 0.70</span>
                     </div>
                   </div>
                 </div>
