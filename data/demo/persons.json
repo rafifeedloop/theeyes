@@ -1,0 +1,236 @@
+[
+  {
+    "id": "pers_102",
+    "name": "Rizal Fakhri",
+    "ids": {
+      "nik": "3173051204850001",
+      "passport": "C1234567",
+      "sim": ["0812-3456-7890", "0856-7890-1234"],
+      "telcoId": "TEL_102_XL",
+      "bankId": ["BCA_102", "MANDIRI_102"]
+    },
+    "demographics": {
+      "age": 38,
+      "gender": "M",
+      "birthDate": "1985-04-12",
+      "birthPlace": "Jakarta",
+      "occupation": "Entrepreneur",
+      "education": "S1 - Computer Science",
+      "maritalStatus": "Married",
+      "religion": "Islam",
+      "nationality": "Indonesian"
+    },
+    "address": {
+      "current": "Jl. Sudirman No. 123, Jakarta Selatan",
+      "ktp": "Jl. Kemang Raya No. 45, Jakarta Selatan",
+      "coordinates": { "lat": -6.2607, "lng": 106.8134 }
+    },
+    "digitalFootprint": {
+      "social": ["@rizalf_twitter", "rizal.fakhri@facebook", "linkedin.com/in/rizalfakhri"],
+      "email": ["rizal.f@gmail.com", "rfakhri@company.co.id"],
+      "phone": ["0812-3456-7890", "021-5678901"],
+      "newsmentions": ["Rizal Fakhri launches new fintech startup", "Local entrepreneur receives investment"]
+    },
+    "riskScore": 0.76,
+    "riskLevel": "High",
+    "riskSignals": ["SIM swap detected", "Geofence breach", "Unusual transaction pattern", "New device login"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rizal",
+    "status": "Under Monitoring",
+    "lastActivity": "2025-09-12T07:45:00Z"
+  },
+  {
+    "id": "pers_103",
+    "name": "Ahmad Sutrisno",
+    "ids": {
+      "nik": "3174081106870002",
+      "passport": "A7654321",
+      "sim": ["0813-2345-6789"],
+      "telcoId": "TEL_103_TSEL",
+      "bankId": ["BNI_103", "BCA_103"]
+    },
+    "demographics": {
+      "age": 36,
+      "gender": "M",
+      "birthDate": "1987-06-11",
+      "birthPlace": "Surabaya",
+      "occupation": "Director",
+      "education": "S2 - Business Management",
+      "maritalStatus": "Married",
+      "religion": "Islam",
+      "nationality": "Indonesian"
+    },
+    "address": {
+      "current": "BSD City, Tangerang",
+      "ktp": "Jl. Diponegoro No. 78, Surabaya",
+      "coordinates": { "lat": -6.3037, "lng": 106.6523 }
+    },
+    "digitalFootprint": {
+      "social": ["@ahmad_s", "ahmad.sutrisno@linkedin"],
+      "email": ["ahmad.s@corporate.id"],
+      "phone": ["0813-2345-6789"],
+      "newsmentions": ["Ahmad Sutrisno appointed as new director"]
+    },
+    "riskScore": 0.62,
+    "riskLevel": "Medium",
+    "riskSignals": ["Transaction anomaly", "New device login", "Travel pattern change"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmad",
+    "status": "Active",
+    "lastActivity": "2025-09-12T07:30:00Z"
+  },
+  {
+    "id": "pers_104",
+    "name": "Siti Maryam",
+    "ids": {
+      "nik": "3175052008920003",
+      "passport": "B9876543",
+      "sim": ["0857-8901-2345"],
+      "telcoId": "TEL_104_ISAT",
+      "bankId": ["MANDIRI_104"]
+    },
+    "demographics": {
+      "age": 31,
+      "gender": "F",
+      "birthDate": "1992-08-20",
+      "birthPlace": "Bandung",
+      "occupation": "Financial Analyst",
+      "education": "S1 - Accounting",
+      "maritalStatus": "Single",
+      "religion": "Islam",
+      "nationality": "Indonesian"
+    },
+    "address": {
+      "current": "Kelapa Gading, Jakarta Utara",
+      "ktp": "Jl. Asia Afrika No. 90, Bandung",
+      "coordinates": { "lat": -6.1622, "lng": 106.9009 }
+    },
+    "digitalFootprint": {
+      "social": ["@siti_maryam", "siti.m@instagram"],
+      "email": ["siti.maryam@gmail.com"],
+      "phone": ["0857-8901-2345"],
+      "newsmentions": []
+    },
+    "riskScore": 0.58,
+    "riskLevel": "Medium",
+    "riskSignals": ["Location anomaly", "After-hours access", "Unusual data access"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Siti",
+    "status": "Active",
+    "lastActivity": "2025-09-12T07:15:00Z"
+  },
+  {
+    "id": "pers_105",
+    "name": "Budi Wijaya",
+    "ids": {
+      "nik": "3172030507880004",
+      "passport": "D5432109",
+      "sim": ["0811-9876-5432"],
+      "telcoId": "TEL_105_XL",
+      "bankId": ["BRI_105", "CIMB_105"]
+    },
+    "demographics": {
+      "age": 35,
+      "gender": "M",
+      "birthDate": "1988-07-05",
+      "birthPlace": "Medan",
+      "occupation": "Logistics Manager",
+      "education": "S1 - Industrial Engineering",
+      "maritalStatus": "Married",
+      "religion": "Buddhist",
+      "nationality": "Indonesian"
+    },
+    "address": {
+      "current": "Thamrin, Jakarta Pusat",
+      "ktp": "Jl. Imam Bonjol No. 12, Medan",
+      "coordinates": { "lat": -6.1954, "lng": 106.8232 }
+    },
+    "digitalFootprint": {
+      "social": ["@budi_w", "budi.wijaya@linkedin"],
+      "email": ["budi.w@logistics.co.id"],
+      "phone": ["0811-9876-5432"],
+      "newsmentions": []
+    },
+    "riskScore": 0.54,
+    "riskLevel": "Medium",
+    "riskSignals": ["Frequent location changes", "Multiple device usage"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Budi",
+    "status": "Active",
+    "lastActivity": "2025-09-12T07:00:00Z"
+  },
+  {
+    "id": "pers_106",
+    "name": "Dewi Rahayu",
+    "ids": {
+      "nik": "3276061512900005",
+      "passport": "E8765432",
+      "sim": ["0818-7654-3210"],
+      "telcoId": "TEL_106_TSEL",
+      "bankId": ["BCA_106", "DANAMON_106"]
+    },
+    "demographics": {
+      "age": 32,
+      "gender": "F",
+      "birthDate": "1990-12-15",
+      "birthPlace": "Yogyakarta",
+      "occupation": "Marketing Director",
+      "education": "S2 - Marketing",
+      "maritalStatus": "Divorced",
+      "religion": "Catholic",
+      "nationality": "Indonesian"
+    },
+    "address": {
+      "current": "Cikarang, Bekasi",
+      "ktp": "Jl. Malioboro No. 56, Yogyakarta",
+      "coordinates": { "lat": -6.3346, "lng": 107.1705 }
+    },
+    "digitalFootprint": {
+      "social": ["@dewi_rahayu", "dewi.r@instagram", "dewirahayu@tiktok"],
+      "email": ["dewi.r@marketing.id", "drahayu@personal.com"],
+      "phone": ["0818-7654-3210", "021-8901234"],
+      "newsmentions": ["Dewi Rahayu wins marketing excellence award"]
+    },
+    "riskScore": 0.45,
+    "riskLevel": "Medium",
+    "riskSignals": ["New SIM registration", "Recent address change"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Dewi",
+    "status": "Active",
+    "lastActivity": "2025-09-12T06:45:00Z"
+  },
+  {
+    "id": "pers_110",
+    "name": "Hendra Gunawan",
+    "ids": {
+      "nik": "3171091003850006",
+      "passport": "F2468135",
+      "sim": ["0821-5555-6666"],
+      "telcoId": "TEL_110_ISAT",
+      "bankId": ["MANDIRI_110", "HSBC_110"]
+    },
+    "demographics": {
+      "age": 38,
+      "gender": "M",
+      "birthDate": "1985-03-10",
+      "birthPlace": "Semarang",
+      "occupation": "Investment Banker",
+      "education": "MBA - Finance",
+      "maritalStatus": "Married",
+      "religion": "Christian",
+      "nationality": "Indonesian"
+    },
+    "address": {
+      "current": "SCBD, Jakarta Selatan",
+      "ktp": "Jl. Pandanaran No. 34, Semarang",
+      "coordinates": { "lat": -6.2297, "lng": 106.8295 }
+    },
+    "digitalFootprint": {
+      "social": ["@hendra_g", "hendra.gunawan@linkedin", "hendragun@twitter"],
+      "email": ["hendra.g@investbank.com", "hgunawan@gmail.com"],
+      "phone": ["0821-5555-6666", "021-5555777"],
+      "newsmentions": ["Hendra Gunawan leads major acquisition deal", "Investment banker of the year nominee"]
+    },
+    "riskScore": 0.35,
+    "riskLevel": "Medium",
+    "riskSignals": ["High-value transactions", "International travel frequency"],
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Hendra",
+    "status": "VIP",
+    "lastActivity": "2025-09-12T08:00:00Z"
+  }
+]

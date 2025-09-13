@@ -1,0 +1,186 @@
+[
+  {
+    "id": "loc_001",
+    "name": "Sudirman CBD",
+    "type": "business_district",
+    "coordinates": { "lat": -6.2088, "lng": 106.8456 },
+    "risk": {
+      "overall": 0.45,
+      "crime": 0.32,
+      "traffic": 0.78,
+      "environmental": 0.25,
+      "infrastructure": 0.15
+    },
+    "metrics": {
+      "population": 45000,
+      "populationDensity": 8500,
+      "avgMovementSpeed": 18,
+      "deviceCount": 32500,
+      "powerUsage": 125,
+      "waterUsage": 85000
+    },
+    "alerts": 3,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  },
+  {
+    "id": "loc_002",
+    "name": "Monas Area",
+    "type": "government",
+    "coordinates": { "lat": -6.1754, "lng": 106.8272 },
+    "risk": {
+      "overall": 0.72,
+      "crime": 0.45,
+      "traffic": 0.65,
+      "environmental": 0.38,
+      "infrastructure": 0.22
+    },
+    "metrics": {
+      "population": 15000,
+      "populationDensity": 5200,
+      "avgMovementSpeed": 22,
+      "deviceCount": 12000,
+      "powerUsage": 45,
+      "waterUsage": 32000
+    },
+    "alerts": 5,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  },
+  {
+    "id": "loc_003",
+    "name": "BSD City",
+    "type": "residential",
+    "coordinates": { "lat": -6.3037, "lng": 106.6523 },
+    "risk": {
+      "overall": 0.28,
+      "crime": 0.18,
+      "traffic": 0.42,
+      "environmental": 0.15,
+      "infrastructure": 0.35
+    },
+    "metrics": {
+      "population": 80000,
+      "populationDensity": 3200,
+      "avgMovementSpeed": 35,
+      "deviceCount": 65000,
+      "powerUsage": 180,
+      "waterUsage": 120000
+    },
+    "alerts": 1,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  },
+  {
+    "id": "loc_004",
+    "name": "Kemang",
+    "type": "entertainment",
+    "coordinates": { "lat": -6.2607, "lng": 106.8134 },
+    "risk": {
+      "overall": 0.52,
+      "crime": 0.58,
+      "traffic": 0.62,
+      "environmental": 0.28,
+      "infrastructure": 0.18
+    },
+    "metrics": {
+      "population": 12000,
+      "populationDensity": 4800,
+      "avgMovementSpeed": 15,
+      "deviceCount": 8500,
+      "powerUsage": 35,
+      "waterUsage": 18000
+    },
+    "alerts": 2,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  },
+  {
+    "id": "loc_005",
+    "name": "Thamrin",
+    "type": "business_district",
+    "coordinates": { "lat": -6.1954, "lng": 106.8232 },
+    "risk": {
+      "overall": 0.38,
+      "crime": 0.25,
+      "traffic": 0.72,
+      "environmental": 0.22,
+      "infrastructure": 0.12
+    },
+    "metrics": {
+      "population": 38000,
+      "populationDensity": 7800,
+      "avgMovementSpeed": 20,
+      "deviceCount": 28000,
+      "powerUsage": 95,
+      "waterUsage": 65000
+    },
+    "alerts": 2,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  },
+  {
+    "id": "loc_006",
+    "name": "Cikarang Industrial",
+    "type": "industrial",
+    "coordinates": { "lat": -6.3346, "lng": 107.1705 },
+    "risk": {
+      "overall": 0.42,
+      "crime": 0.22,
+      "traffic": 0.38,
+      "environmental": 0.65,
+      "infrastructure": 0.45
+    },
+    "metrics": {
+      "population": 25000,
+      "populationDensity": 1800,
+      "avgMovementSpeed": 40,
+      "deviceCount": 15000,
+      "powerUsage": 350,
+      "waterUsage": 180000
+    },
+    "alerts": 4,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  },
+  {
+    "id": "loc_007",
+    "name": "Soekarno-Hatta Airport",
+    "type": "transportation",
+    "coordinates": { "lat": -6.1275, "lng": 106.6537 },
+    "risk": {
+      "overall": 0.35,
+      "crime": 0.28,
+      "traffic": 0.45,
+      "environmental": 0.18,
+      "infrastructure": 0.08
+    },
+    "metrics": {
+      "population": 18000,
+      "populationDensity": 2200,
+      "avgMovementSpeed": 25,
+      "deviceCount": 22000,
+      "powerUsage": 120,
+      "waterUsage": 45000
+    },
+    "alerts": 1,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  },
+  {
+    "id": "loc_008",
+    "name": "Kelapa Gading",
+    "type": "residential",
+    "coordinates": { "lat": -6.1622, "lng": 106.9009 },
+    "risk": {
+      "overall": 0.32,
+      "crime": 0.35,
+      "traffic": 0.48,
+      "environmental": 0.18,
+      "infrastructure": 0.15
+    },
+    "metrics": {
+      "population": 55000,
+      "populationDensity": 4500,
+      "avgMovementSpeed": 28,
+      "deviceCount": 42000,
+      "powerUsage": 85,
+      "waterUsage": 75000
+    },
+    "alerts": 0,
+    "lastUpdate": "2025-09-12T07:20:00Z"
+  }
+]

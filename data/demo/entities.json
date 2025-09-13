@@ -1,0 +1,130 @@
+{
+  "people": [
+    {
+      "id": "pers_102",
+      "display": "Rizal F.",
+      "score": 0.76,
+      "signals": ["SIM swap", "geofence breach", "unusual movement pattern"],
+      "lastSeen": "2025-09-12T03:55:00Z",
+      "location": {"lat": -6.2607, "lng": 106.8134},
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rizal"
+    },
+    {
+      "id": "pers_103",
+      "display": "Ahmad S.",
+      "score": 0.62,
+      "signals": ["transaction anomaly", "new device login"],
+      "lastSeen": "2025-09-12T03:45:00Z",
+      "location": {"lat": -6.2297, "lng": 106.8295},
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmad"
+    },
+    {
+      "id": "pers_104",
+      "display": "Siti M.",
+      "score": 0.58,
+      "signals": ["location anomaly", "after-hours access"],
+      "lastSeen": "2025-09-12T03:30:00Z",
+      "location": {"lat": -6.1751, "lng": 106.8650},
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Siti"
+    },
+    {
+      "id": "pers_105",
+      "display": "Budi W.",
+      "score": 0.54,
+      "signals": ["frequent location changes"],
+      "lastSeen": "2025-09-12T03:20:00Z",
+      "location": {"lat": -6.2088, "lng": 106.8456},
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Budi"
+    },
+    {
+      "id": "pers_106",
+      "display": "Dewi R.",
+      "score": 0.45,
+      "signals": ["new SIM registration"],
+      "lastSeen": "2025-09-12T03:15:00Z",
+      "location": {"lat": -6.3037, "lng": 106.6523},
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Dewi"
+    }
+  ],
+  "companies": [
+    {
+      "id": "ci_88",
+      "display": "PT Nusantara Tech",
+      "score": 0.68,
+      "signals": ["UBO change", "tender spike", "unusual cash flow"],
+      "lastUpdate": "2025-09-12T03:00:00Z",
+      "sector": "Technology",
+      "employees": 250
+    },
+    {
+      "id": "ci_89",
+      "display": "CV Maju Bersama",
+      "score": 0.61,
+      "signals": ["rapid expansion", "new government contracts"],
+      "lastUpdate": "2025-09-12T02:45:00Z",
+      "sector": "Construction",
+      "employees": 150
+    },
+    {
+      "id": "ci_90",
+      "display": "PT Global Logistics",
+      "score": 0.55,
+      "signals": ["route anomalies", "shipment delays"],
+      "lastUpdate": "2025-09-12T02:30:00Z",
+      "sector": "Logistics",
+      "employees": 500
+    },
+    {
+      "id": "ci_91",
+      "display": "PT Energi Mandiri",
+      "score": 0.48,
+      "signals": ["regulatory filing delays"],
+      "lastUpdate": "2025-09-12T02:15:00Z",
+      "sector": "Energy",
+      "employees": 300
+    },
+    {
+      "id": "ci_92",
+      "display": "PT Digital Indonesia",
+      "score": 0.42,
+      "signals": ["new funding round"],
+      "lastUpdate": "2025-09-12T02:00:00Z",
+      "sector": "Fintech",
+      "employees": 100
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_jkt_monas",
+      "name": "Monas Area",
+      "type": "landmark",
+      "risk": 0.72,
+      "population": 15000,
+      "geo": {"lat": -6.1754, "lng": 106.8272}
+    },
+    {
+      "id": "loc_jkt_sudirman",
+      "name": "Jl. Sudirman",
+      "type": "business_district",
+      "risk": 0.45,
+      "population": 25000,
+      "geo": {"lat": -6.2088, "lng": 106.8456}
+    },
+    {
+      "id": "loc_bsd",
+      "name": "BSD City",
+      "type": "residential",
+      "risk": 0.38,
+      "population": 80000,
+      "geo": {"lat": -6.3037, "lng": 106.6523}
+    },
+    {
+      "id": "loc_kemang",
+      "name": "Kemang",
+      "type": "entertainment",
+      "risk": 0.52,
+      "population": 12000,
+      "geo": {"lat": -6.2607, "lng": 106.8134}
+    }
+  ]
+}

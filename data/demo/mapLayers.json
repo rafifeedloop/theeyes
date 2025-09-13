@@ -1,0 +1,35 @@
+{
+  "base": "OSM",
+  "layers": {
+    "populationHeat": [
+      {"lat": -6.1754, "lng": 106.8272, "value": 0.78, "radius": 1000},
+      {"lat": -6.2088, "lng": 106.8456, "value": 0.82, "radius": 1500},
+      {"lat": -6.2607, "lng": 106.8134, "value": 0.65, "radius": 800},
+      {"lat": -6.3037, "lng": 106.6523, "value": 0.45, "radius": 2000},
+      {"lat": -6.1751, "lng": 106.8650, "value": 0.72, "radius": 1200},
+      {"lat": -6.2297, "lng": 106.8295, "value": 0.68, "radius": 900}
+    ],
+    "traffic": [
+      {"segmentId": "jkt_001", "name": "Sudirman CBD", "speedKph": 14, "congestion": 0.82, "path": [[-6.2088, 106.8456], [-6.2188, 106.8356]]},
+      {"segmentId": "jkt_002", "name": "Thamrin", "speedKph": 22, "congestion": 0.65, "path": [[-6.1954, 106.8232], [-6.1854, 106.8332]]},
+      {"segmentId": "jkt_003", "name": "Gatot Subroto", "speedKph": 35, "congestion": 0.45, "path": [[-6.2297, 106.8295], [-6.2397, 106.8195]]},
+      {"segmentId": "jkt_004", "name": "Rasuna Said", "speedKph": 18, "congestion": 0.72, "path": [[-6.2207, 106.8334], [-6.2307, 106.8234]]}
+    ],
+    "disaster": [
+      {"type": "flood", "level": 2, "name": "North Jakarta Flood Zone", "polygon": [[-6.1454, 106.8072], [-6.1454, 106.8272], [-6.1654, 106.8272], [-6.1654, 106.8072]]},
+      {"type": "earthquake", "level": 1, "name": "Seismic Activity Zone", "polygon": [[-6.3037, 106.6323], [-6.3037, 106.6723], [-6.3237, 106.6723], [-6.3237, 106.6323]]}
+    ],
+    "infrastructure": [
+      {"name": "PLN Substation Sudirman", "type": "power", "risk": 0.61, "lat": -6.2088, "lng": 106.8456, "status": "operational"},
+      {"name": "Water Treatment BSD", "type": "water", "risk": 0.35, "lat": -6.3037, "lng": 106.6523, "status": "maintenance"},
+      {"name": "Telco Tower Monas", "type": "telecom", "risk": 0.42, "lat": -6.1754, "lng": 106.8272, "status": "operational"},
+      {"name": "Gas Pipeline Junction", "type": "gas", "risk": 0.58, "lat": -6.2297, "lng": 106.8295, "status": "operational"}
+    ],
+    "geofences": [
+      {"id": "gf_001", "name": "Government Zone", "type": "restricted", "center": [-6.1754, 106.8272], "radius": 500},
+      {"id": "gf_002", "name": "Business District", "type": "monitored", "center": [-6.2088, 106.8456], "radius": 1000},
+      {"id": "gf_003", "name": "Residential Area", "type": "standard", "center": [-6.3037, 106.6523], "radius": 2000}
+    ]
+  },
+  "updatedAt": "2025-09-12T04:10:00Z"
+}

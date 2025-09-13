@@ -1,0 +1,237 @@
+{
+  "pers_102": [
+    {
+      "id": "evt_001",
+      "date": "2025-09-12T07:45:00Z",
+      "type": "telco",
+      "event": "SIM swap detected",
+      "details": "SIM card 0812-3456-7890 swapped to new device",
+      "severity": "high",
+      "anomaly": true,
+      "location": { "lat": -6.2607, "lng": 106.8134 }
+    },
+    {
+      "id": "evt_002",
+      "date": "2025-09-12T06:30:00Z",
+      "type": "financial",
+      "event": "Large transfer IDR 500M",
+      "details": "Transfer to PT Global Logistics account",
+      "severity": "medium",
+      "anomaly": true,
+      "amount": 500000000,
+      "currency": "IDR"
+    },
+    {
+      "id": "evt_003",
+      "date": "2025-09-12T05:00:00Z",
+      "type": "travel",
+      "event": "Flight CGK → SIN",
+      "details": "Singapore Airlines SQ951, Business Class",
+      "severity": "low",
+      "anomaly": false,
+      "flightNumber": "SQ951"
+    },
+    {
+      "id": "evt_004",
+      "date": "2025-09-11T22:00:00Z",
+      "type": "location",
+      "event": "Geofence breach",
+      "details": "Entered restricted government zone",
+      "severity": "high",
+      "anomaly": true,
+      "location": { "lat": -6.1754, "lng": 106.8272 }
+    },
+    {
+      "id": "evt_005",
+      "date": "2025-09-11T18:00:00Z",
+      "type": "digital",
+      "event": "New device login",
+      "details": "Login from iPhone 14 Pro - Singapore IP",
+      "severity": "medium",
+      "anomaly": true,
+      "device": "iPhone 14 Pro",
+      "ip": "203.127.16.88"
+    },
+    {
+      "id": "evt_006",
+      "date": "2025-09-11T14:00:00Z",
+      "type": "financial",
+      "event": "ATM withdrawal",
+      "details": "IDR 10,000,000 from BCA ATM Sudirman",
+      "severity": "low",
+      "anomaly": false,
+      "amount": 10000000
+    },
+    {
+      "id": "evt_007",
+      "date": "2025-09-10T10:00:00Z",
+      "type": "social",
+      "event": "Social media post",
+      "details": "Posted about new business venture on Twitter",
+      "severity": "low",
+      "anomaly": false,
+      "platform": "Twitter"
+    }
+  ],
+  "pers_103": [
+    {
+      "id": "evt_101",
+      "date": "2025-09-12T07:30:00Z",
+      "type": "financial",
+      "event": "Transaction anomaly detected",
+      "details": "Multiple small transactions totaling IDR 100M",
+      "severity": "medium",
+      "anomaly": true,
+      "amount": 100000000
+    },
+    {
+      "id": "evt_102",
+      "date": "2025-09-12T06:00:00Z",
+      "type": "digital",
+      "event": "Email activity spike",
+      "details": "287 emails sent in 1 hour",
+      "severity": "medium",
+      "anomaly": true
+    },
+    {
+      "id": "evt_103",
+      "date": "2025-09-11T20:00:00Z",
+      "type": "location",
+      "event": "Office access after hours",
+      "details": "Badge scan at BSD office 20:15",
+      "severity": "low",
+      "anomaly": false,
+      "location": { "lat": -6.3037, "lng": 106.6523 }
+    },
+    {
+      "id": "evt_104",
+      "date": "2025-09-11T14:00:00Z",
+      "type": "travel",
+      "event": "Domestic flight",
+      "details": "GA-412 Jakarta to Surabaya",
+      "severity": "low",
+      "anomaly": false
+    }
+  ],
+  "pers_104": [
+    {
+      "id": "evt_201",
+      "date": "2025-09-12T07:15:00Z",
+      "type": "location",
+      "event": "Location anomaly",
+      "details": "Unusual presence in industrial zone",
+      "severity": "medium",
+      "anomaly": true,
+      "location": { "lat": -6.3346, "lng": 107.1705 }
+    },
+    {
+      "id": "evt_202",
+      "date": "2025-09-12T02:00:00Z",
+      "type": "digital",
+      "event": "Database access",
+      "details": "Accessed sensitive financial records",
+      "severity": "high",
+      "anomaly": true
+    },
+    {
+      "id": "evt_203",
+      "date": "2025-09-11T16:00:00Z",
+      "type": "financial",
+      "event": "Salary credit",
+      "details": "Monthly salary IDR 25,000,000",
+      "severity": "low",
+      "anomaly": false,
+      "amount": 25000000
+    }
+  ],
+  "pers_105": [
+    {
+      "id": "evt_301",
+      "date": "2025-09-12T07:00:00Z",
+      "type": "telco",
+      "event": "Multiple device usage",
+      "details": "3 different devices active simultaneously",
+      "severity": "medium",
+      "anomaly": true
+    },
+    {
+      "id": "evt_302",
+      "date": "2025-09-12T06:00:00Z",
+      "type": "location",
+      "event": "Rapid location changes",
+      "details": "5 different locations in 2 hours",
+      "severity": "medium",
+      "anomaly": true
+    },
+    {
+      "id": "evt_303",
+      "date": "2025-09-11T09:00:00Z",
+      "type": "financial",
+      "event": "Regular payment",
+      "details": "Logistics vendor payment IDR 50M",
+      "severity": "low",
+      "anomaly": false,
+      "amount": 50000000
+    }
+  ],
+  "pers_106": [
+    {
+      "id": "evt_401",
+      "date": "2025-09-12T06:45:00Z",
+      "type": "telco",
+      "event": "New SIM registration",
+      "details": "New Telkomsel SIM registered",
+      "severity": "low",
+      "anomaly": false
+    },
+    {
+      "id": "evt_402",
+      "date": "2025-09-11T15:00:00Z",
+      "type": "location",
+      "event": "Address update",
+      "details": "KTP address changed to Cikarang",
+      "severity": "low",
+      "anomaly": false
+    },
+    {
+      "id": "evt_403",
+      "date": "2025-09-10T10:00:00Z",
+      "type": "social",
+      "event": "Award mention",
+      "details": "Featured in news for marketing excellence",
+      "severity": "low",
+      "anomaly": false
+    }
+  ],
+  "pers_110": [
+    {
+      "id": "evt_501",
+      "date": "2025-09-12T08:00:00Z",
+      "type": "financial",
+      "event": "High-value transaction",
+      "details": "Investment transfer USD 2.5M",
+      "severity": "medium",
+      "anomaly": false,
+      "amount": 2500000,
+      "currency": "USD"
+    },
+    {
+      "id": "evt_502",
+      "date": "2025-09-11T14:00:00Z",
+      "type": "travel",
+      "event": "International travel",
+      "details": "CX750 Jakarta to Hong Kong",
+      "severity": "low",
+      "anomaly": false
+    },
+    {
+      "id": "evt_503",
+      "date": "2025-09-10T16:00:00Z",
+      "type": "digital",
+      "event": "Secure login",
+      "details": "Investment platform login with 2FA",
+      "severity": "low",
+      "anomaly": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "zone_001",
+    "name": "Government Restricted Zone",
+    "type": "restricted",
+    "polygon": [
+      [-6.1700, 106.8200],
+      [-6.1700, 106.8350],
+      [-6.1800, 106.8350],
+      [-6.1800, 106.8200]
+    ],
+    "activeDevices": 8500,
+    "status": "normal"
+  },
+  {
+    "id": "zone_002",
+    "name": "CBD Monitoring Zone",
+    "type": "monitored",
+    "polygon": [
+      [-6.2050, 106.8400],
+      [-6.2050, 106.8500],
+      [-6.2150, 106.8500],
+      [-6.2150, 106.8400]
+    ],
+    "activeDevices": 25000,
+    "status": "warning"
+  },
+  {
+    "id": "zone_003",
+    "name": "Airport Security Zone",
+    "type": "restricted",
+    "polygon": [
+      [-6.1200, 106.6450],
+      [-6.1200, 106.6650],
+      [-6.1350, 106.6650],
+      [-6.1350, 106.6450]
+    ],
+    "activeDevices": 15000,
+    "status": "normal"
+  },
+  {
+    "id": "zone_004",
+    "name": "Industrial Safety Zone",
+    "type": "monitored",
+    "polygon": [
+      [-6.3300, 107.1650],
+      [-6.3300, 107.1750],
+      [-6.3400, 107.1750],
+      [-6.3400, 107.1650]
+    ],
+    "activeDevices": 12000,
+    "status": "critical"
+  },
+  {
+    "id": "zone_005",
+    "name": "Public Entertainment Zone",
+    "type": "public",
+    "polygon": [
+      [-6.2550, 106.8100],
+      [-6.2550, 106.8200],
+      [-6.2650, 106.8200],
+      [-6.2650, 106.8100]
+    ],
+    "activeDevices": 6500,
+    "status": "normal"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "ci_88", "type": "company", "label": "PT Nusantara Tech", "risk": 0.68},
+    {"id": "pers_102", "type": "person", "label": "Rizal F.", "risk": 0.76},
+    {"id": "pers_103", "type": "person", "label": "Ahmad S.", "risk": 0.62},
+    {"id": "ci_89", "type": "company", "label": "CV Maju Bersama", "risk": 0.61},
+    {"id": "loc_jkt_sudirman", "type": "location", "label": "Sudirman CBD", "risk": 0.45},
+    {"id": "pers_104", "type": "person", "label": "Siti M.", "risk": 0.58},
+    {"id": "ci_90", "type": "company", "label": "PT Global Logistics", "risk": 0.55},
+    {"id": "loc_kemang", "type": "location", "label": "Kemang", "risk": 0.52}
+  ],
+  "edges": [
+    {"from": "pers_102", "to": "ci_88", "type": "worksAt", "strength": 0.9},
+    {"from": "pers_103", "to": "ci_88", "type": "worksAt", "strength": 0.8},
+    {"from": "pers_102", "to": "pers_103", "type": "knows", "strength": 0.7},
+    {"from": "ci_88", "to": "loc_jkt_sudirman", "type": "locatedIn", "strength": 1.0},
+    {"from": "pers_104", "to": "ci_89", "type": "owns", "strength": 0.6},
+    {"from": "ci_89", "to": "ci_90", "type": "partner", "strength": 0.5},
+    {"from": "pers_102", "to": "loc_kemang", "type": "visited", "strength": 0.4},
+    {"from": "ci_90", "to": "loc_jkt_sudirman", "type": "locatedIn", "strength": 0.8}
+  ]
+}
