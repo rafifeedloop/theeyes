@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic'
 import { AlertTriangle, Bell, Shield, Filter, Clock, MapPin, User, Building2, X, Check, ChevronRight, AlertCircle, Activity, Users, Eye, UserCheck, FileText, RefreshCw } from 'lucide-react'
 import Link from 'next/link'
 import { format } from 'date-fns'
+import Header from '@/components/Header'
 
 // Dynamic import for MapCanvas to avoid SSR issues
 const MapCanvas = dynamic(() => import('@/components/MapCanvas'), {
@@ -192,14 +193,13 @@ export default function MonitoringAlerting() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <div className="bg-white border-b px-6 py-4">
-        <div className="flex items-center justify-between">
+    <div className="min-h-screen bg-[var(--bg)]">
+      <Header />
+
+      <main className="p-6">
+        {/* Page Title and Controls */}
+        <div className="mb-6 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href="/" className="text-gray-600 hover:text-gray-900">
-              ← Back to Dashboard
-            </Link>
             <h1 className="text-2xl font-bold flex items-center gap-2">
               <Shield className="w-6 h-6 text-red-600" />
               Monitoring & Alerting
@@ -562,6 +562,7 @@ export default function MonitoringAlerting() {
           </div>
         )}
       </div>
+      </main>
     </div>
   )
 }
